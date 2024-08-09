@@ -6,7 +6,7 @@ La aplicación de gestión de tareas para el hogar permite a los usuarios crear,
 Clona este repositorio en un nuevo directorio
 
 ```bash
-git clone aquielenlace-github
+git clone https://github.com/RobertoJacome-H23/hogar.git
 cd tarea
 ```
 
