@@ -1,0 +1,180 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    background-color: #23709f;
+    color: white;
+    width: 200px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit-button:hover {
+    background-color: #104668;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 100%; 
+    min-width: 1300px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th,
+td {
+    padding: 8px 20px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+}
+
+th {
+    background-color: #23709f;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #007bb5;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.table-container {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.table-container button {
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.table-container .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.table-container .delete-button:hover {
+    background-color: #c82333;
+}
+
+input:focus {
+    outline: 1px solid #c4e1ff;
+    border-color: #d0e7ff;
+}
+
+select:focus {
+    outline: 1px solid #c4e1ff;
+    border-color: #d0e7ff;
+}
+textarea:focus {
+    outline: 1px solid #c4e1ff;
+    border-color: #d0e7ff;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.card-header {
+    background-color: #23709f;
+    color: #fff;
+    padding: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.textareacustom{
+    padding: 0;
+    margin: 0;
+}
+.lastrow{
+    padding: 5px;
+}
